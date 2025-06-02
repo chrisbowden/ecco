@@ -356,6 +356,12 @@ footer li {
 		flex-wrap: wrap;
 	}
 
+	#community img {
+		max-width: 100%;
+		height: auto;
+
+	}
+
 	footer li {
 		padding-bottom: 10px;
 	}
