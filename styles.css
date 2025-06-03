@@ -131,6 +131,10 @@ nav span {
     padding: 0 20px;
 }
 
+.responsive-img {
+	width: 200px;
+	height: 200px;
+}
 
 /* CONTENT 2
 ----------------------------------------
@@ -369,6 +373,11 @@ footer li {
 	footer ul {
 		flex-wrap: wrap;
 	}
+
+	.responsive-img {
+		width: 100px;
+		height: 100px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -425,7 +434,7 @@ footer li {
 	nav ul {
 		display: flex;
 		/* flex-direction: column; */
-		align-items: flex-start;
+		align-items: flex-start; 
 	}
 
 	nav li {
